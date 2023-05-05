@@ -5,7 +5,7 @@
 
 
 limit = 5000
-price_sheet={'Laptop': 1500, 'Headset': 100, 'Second monitor': 200, 'Housepad': 50, 'External drive' :250}
+price_sheet={'Laptop': 1500, 'Headset': 100, 'Second monitor': 200, 'Mousepad': 50, 'External drive' :250}
 
 
 # In[21]:
@@ -53,7 +53,7 @@ def checkout():
 
 
 add_to_cart("Second monitor", 1)
-add_to_cart("Housepad", 2)
+add_to_cart("Mousepad", 2)
 add_to_cart("Laptop", 1)
 add_to_cart("Headset", 3)
 add_to_cart("External drive", 4)
